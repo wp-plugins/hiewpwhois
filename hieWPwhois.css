@@ -1,0 +1,41 @@
+
+/* 
+ *
+ * css file for Wordpress Plugin hieWPwhois
+ * Version: 1.0
+ * Autor: A&K www.arzberger-krueger.de
+ *
+ * usr: ma
+ * 
+ */
+
+
+#akInfoBox {
+	position:relative;
+	z-index:3;
+}
+
+#akInfoBox a {
+	color:red;
+	font:bold 16px verdana, sans-serif;
+	text-decoration:none;
+	display:block;
+	padding:5px;
+}
+
+#akInfoBox a:hover {
+	color:black;
+	background:#ddd8b7;
+	width:400px;
+}
+
+#akInfoBox a span { display:none; }
+
+#akInfoBox a:hover span {
+	color:black;
+	background:#ffffff;
+	font:normal 16px courier, sans-serif;
+	border:1px solid black;
+	display:block;
+	padding:10px;
+}
